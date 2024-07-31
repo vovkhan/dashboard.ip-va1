@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Recreation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="nav-item">Viscel</a>
+            <a href="#" class="nav-item home-button active"><i class="fas fa-home"></i></a>
+            <div class="dropdown">
+                <a href="#" class="nav-item">Cadastros <i class="fas fa-sort-desc"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="nav-item">Pagamentos <i class="fas fa-sort-desc"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
+            <a href="#" class="nav-item">Top10</a>
+            <a href="#" class="nav-item">Ped. Oração</a>
+        </div>
+        <div class="navbar-right">
+            <div class="dropdown dropdown-right">
+                <a href="#" class="nav-item"><i class="fas fa-question"></i> <i class="fas fa-sort-desc"></i></a>
+                <div class="dropdown-content dropdown-content-right">
+                    <a href="#">Help Option 1</a>
+                    <a href="#">Help Option 2</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-right">
+                <a href="#" class="nav-item"><i class="fas fa-user"></i> <i class="fas fa-sort-desc"></i></a>
+                <div class="dropdown-content dropdown-content-right">
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="location">
+        <i class="fas fa-plus-circle"></i>
+        <span>Minha Igreja - IEQ - IeqCastanhal Sede</span>
+    </div>
+
+    <section class="buttons-container">
+        <a href="#" class="button cells">Células</a>
+        <a href="#" class="button orders">Ped. Oração</a>
+        <a href="#" class="button data">Meus dados</a>
+        <a href="#" class="button users">Usuários</a>
+        <a href="#" class="button config">Config.</a>
+        <a href="#" class="button agenda">Agenda</a>
+    </section>
+
+    <main class="main-container">
+        <section class="section yellow" id="active-members">
+            <div class="header">
+                <h2>Membros/Usuários (Ativos)</h2>
+            </div>
+            <div class="content">
+                <div class="item">
+                    <span class="item-label">Administradores:</span>
+                    <span class="item-value">2</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Líderes:</span>
+                    <span class="item-value">14</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Supervisores:</span>
+                    <span class="item-value">3</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Coordenadores:</span>
+                    <span class="item-value">0</span>
+                </div>
+            </div>
+        </section>
+        <section class="section yellow" id="donations">
+            <div class="header">
+                <h2>Doações (Mês atual)</h2>
+            </div>
+            <div class="content">
+                <div class="item">
+                    <span class="item-label">Doações realizadas:</span>
+                    <span class="item-value">R$ 0,00</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Doações aguardando pagamento:</span>
+                    <span class="item-value">R$ 0,00</span>
+                </div>
+            </div>
+        </section>
+        <section class="section green" id="meetings">
+            <div class="header">
+                <h2>Reuniões de Célula</h2>
+            </div>
+            <div class="info">
+                <h3>Jan à Dez de 2015</h3>
+                <p>Todas as Redes</p>
+            </div>
+            <div class="content">
+                <div class="item">
+                    <span class="item-label">Visitantes não convertidos:</span>
+                    <span class="item-value">-</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Conversões realizadas:</span>
+                    <span class="item-value">-</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Reconciliações realizadas:</span>
+                    <span class="item-value">-</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Batismos realizados:</span>
+                    <span class="item-value">-</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Ofertas com propósito:</span>
+                    <span class="item-value currency-symbol">R$ -</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Trab. de Evangelização:</span>
+                    <span class="item-value">-</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Ação Social:</span>
+                    <span class="item-value">-</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Visita de Supervisão:</span>
+                    <span class="item-value">-</span>
+                </div>
+            </div>
+        </section>
+        <section class="section blue" id="users">
+            <div class="header">
+                <h2>Cadastros (Ativos)</h2>
+            </div>
+            <div class="content">
+                <div class="item">
+                    <span class="item-label">Usuários:</span>
+                    <span class="item-value">19</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Células:</span>
+                    <span class="item-value">14</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Vídeos:</span>
+                    <span class="item-value">7</span>
+                </div>
+            </div>
+        </section>
+        <section class="section blue-light" id="cells">
+            <div class="header">
+                <h2>Células ativas por Rede</h2>
+            </div>
+            <div class="content">
+                <div class="item">
+                    <span class="item-label">Homens:</span>
+                    <span class="item-value">1</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Rapazes:</span>
+                    <span class="item-value">4</span>
+                </div>
+                <div class="item">
+                    <span class="item-label">Moças:</span>
+                    <span class="item-value">9</span>
+                </div>
+            </div>
+        </section>
+        <section class="section grey" id="agenda">
+            <div class="header">
+                <h2>Agenda do mês (Jun/2015)</h2>
+            </div>
+            <div class="item">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Evento:</th>
+                            <th>Data do evento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Events go here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
